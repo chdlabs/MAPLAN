@@ -1,0 +1,218 @@
+/* Reset & Base */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: system-ui, sans-serif;
+  background-color: #121212;
+  color: #eee;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem 2rem;
+  background-color: #121212;
+  color: #eee;
+}
+
+/* Top Row */
+.top-row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Scan Control */
+.scan-control {
+  flex: 0 0 280px;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #000000aa;
+}
+
+.scan-control h2 {
+  margin-top: 0;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+
+button {
+  flex: 1;
+  background-color: #2a2a2a;
+  border: none;
+  padding: 0.7rem 1rem;
+  color: #eee;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: inherit;
+  height: 45px;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #646cff;
+  color: white;
+}
+
+/* Network Stats */
+.network-stats {
+  flex: 1;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #000000aa;
+}
+
+.network-stats h2 {
+  margin-top: 0;
+}
+
+.stats-cards {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.stat-card {
+  background-color: #222;
+  flex: 1;
+  padding: 1rem 0;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: inset 0 0 6px #00000088;
+}
+
+.stat-number {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #64ffda;
+}
+
+.stat-label {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  color: #bbb;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+  min-height: 500px;
+}
+
+/* Network Map */
+.network-map {
+  flex: 3;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px #000000aa;
+  display: flex;
+  flex-direction: column;
+}
+
+.network-map h2 {
+  margin-top: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 480px; /* Hauteur fixe */
+  border-radius: 6px;
+  background-color: #111;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+/* Device List */
+.device-list {
+  flex: 1;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px #000000aa;
+}
+
+.device-list h2 {
+  margin-top: 0;
+}
+
+.device-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.device-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.device-icon {
+  width: 30px;
+  height: 30px;
+  color: #64ffda;
+  flex-shrink: 0;
+  stroke: currentColor;
+}
+
+.device-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #ccc;
+}
+
+.device-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.device-ip {
+  font-size: 0.85rem;
+  color: #888;
+  font-family: monospace;
+}
+
+.status-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1.5px solid #444;
+}
+
+/* Error */
+.error {
+  color: #e55353;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
