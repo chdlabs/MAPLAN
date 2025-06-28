@@ -6,6 +6,7 @@ Elle offre une cartographie dynamique et interactive des équipements,
 
 accompagnée d’une interface claire pour le contrôle du scan et l’affichage des statistiques en temps réel.
 
+
 ✨ Fonctionnalités principales
 
 🔍 Scan réseau complet pour détecter les appareils connectés (PC, téléphones, routeurs, imprimantes, etc.)
@@ -19,6 +20,7 @@ accompagnée d’une interface claire pour le contrôle du scan et l’affichage
 🎛️ Interface utilisateur moderne et responsive avec contrôle du scan et rafraîchissement
 
 🔔 Notifications sonores pour indiquer la fin d’un scan réussi
+
 
 🛠️ Tech stack
 
