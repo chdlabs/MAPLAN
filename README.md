@@ -29,3 +29,14 @@ accompagnée d’une interface claire pour le contrôle du scan et l’affichage
 🚀 Backend : Node.js (API REST pour le scan réseau)
 
 🎨 Visualisation réseau : vis-network (bibliothèque graphique interactive)
+
+🚀 Installation et utilisation
+
+Prérequis
+
+- Node.js (version 16 ou plus récente recommandée)
+
+- npm ou yarn
+
+- Accès à un réseau local pour scanner les appareils
+
