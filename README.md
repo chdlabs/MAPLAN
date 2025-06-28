@@ -37,7 +37,7 @@ Prérequis
 
 - Node.js (version 16 ou plus récente recommandée)
 
-- npm ou yarn
+- npm : npm install express react react-dom vite @vitejs/plugin-react concurrently --save-dev --save
 
 - Accès à un réseau local pour scanner les appareils
 
