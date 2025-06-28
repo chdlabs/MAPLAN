@@ -20,3 +20,10 @@ accompagnée d’une interface claire pour le contrôle du scan et l’affichage
 
 🔔 Notifications sonores pour indiquer la fin d’un scan réussi
 
+🛠️ Tech stack
+
+⚛️ Frontend : React, CSS moderne (Flexbox, cartes, responsive design)
+
+🚀 Backend : Node.js (API REST pour le scan réseau)
+
+🎨 Visualisation réseau : vis-network (bibliothèque graphique interactive)
