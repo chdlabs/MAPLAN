@@ -31,7 +31,7 @@ accompagnée d’une interface claire pour le contrôle du scan et l’affichage
 🎨 Visualisation réseau : vis-network (bibliothèque graphique interactive)
 
 
-🚀 Installation et utilisation
+Installation et utilisation
 
 Prérequis
 
@@ -41,3 +41,19 @@ Prérequis
 
 - Accès à un réseau local pour scanner les appareils
 
+
+🚀 Démarrage
+
+- Ouvrer une fenêtre du terminal
+
+- Naviguez jusqu'au Repertoire qui contient server.js
+
+- Tapez node server.js
+
+- Ouvrez une autre fenêtre
+
+- Tapez la commande npm run dev
+
+- Copiez l'URL dans le navigateur
+
+- Enjoy
